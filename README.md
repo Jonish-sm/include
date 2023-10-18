@@ -44,3 +44,5 @@ https://bluekingdomapp.netlify.app.
    ```bash
    git clone https://github.com/yourusername/blue-kingdom.git
    ```
+![Screenshot 2023-10-18 223009](https://github.com/Jonish-sm/include/assets/63834635/a13accbc-9283-4135-bfb7-e75531393379)
+![Screenshot 2023-10-18 223040](https://github.com/Jonish-sm/include/assets/63834635/7c788ad0-998c-4171-8d85-ed0ffdbc23c7)
