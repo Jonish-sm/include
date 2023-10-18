@@ -1,0 +1,115 @@
+.read_main {
+  background-image: url(../../assets/footer/zone-bg.webp);
+  background-size: cover;
+}
+.readsee {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.left h2 {
+  color: #4b4b4b;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #007aff;
+  font-size: 1.7rem;
+}
+.right span {
+  color: rgb(61, 59, 59);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.grid1 {
+  grid-area: A;
+  position: relative;
+}
+.grid2 {
+  grid-area: B;
+  position: relative;
+}
+.grid3 {
+  grid-area: C;
+  position: relative;
+}
+.grid4 {
+  grid-area: D;
+  position: relative;
+}
+.grid5 {
+  grid-area: E;
+  position: relative;
+}
+.grid6 {
+  grid-area: F;
+  position: relative;
+}
+
+.readcard {
+  display: grid;
+  grid-template-areas:
+    "A A A A   B B B C C C"
+    "D D  E E   B B B F F F";
+  width: 84%;
+  margin: auto;
+  height: 80vh;
+}
+
+.readcard > div {
+  margin: 0.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.readcard div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+.hu3 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+}
+
+/* Media Query for all devices */
+
+@media (max-width: 575px) {
+  .readcard {
+    width: 100%;
+  }
+  .readcard {
+    grid-template-areas:
+      "A A A A"
+      "C C D D"
+      "B B E E"
+      "B B F F";
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .readcard {
+    grid-template-areas:
+      "A A A A"
+      "C C D D"
+      "B B E E"
+      "B B F F";
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .readcard {
+    height: 50vh;
+  }
+  .right {
+    display: none;
+  }
+}

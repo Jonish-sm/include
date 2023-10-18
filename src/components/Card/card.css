@@ -1,0 +1,173 @@
+.card {
+  position: relative;
+  width: 410px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+.card img {
+  width: 100%;
+  filter: brightness(50%);
+  transition: transform 0.5s;
+  /* border-radius: 1rem; */
+}
+.card img:hover {
+  transform: scale(1.1);
+  filter: brightness(30%);
+}
+
+.card h3 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-weight: bold;
+  color: white;
+  font-size: 1.7rem;
+}
+.card p {
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  top: 25%;
+  left: 5%;
+}
+.love-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background: rgba(212, 208, 208, 0.326);
+  top: 9%;
+  right: 35%;
+  color: white;
+}
+
+.vertical-line {
+  position: absolute;
+  width: 1px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.783);
+  top: 10%;
+  right: 25%;
+}
+.distance {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: white;
+  bottom: 15%;
+  left: 5%;
+}
+.vertical-line1 {
+  position: absolute;
+  width: 0.5px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.783);
+  bottom: 5%;
+  right: 45%;
+}
+.star {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  bottom: 5%;
+  right: 30%;
+  color: rgb(255, 255, 255);
+}
+.star .allstart {
+  color: yellow;
+}
+.star .allstart span {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  position: absolute;
+  bottom: 53%;
+  margin-left: 5px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: white;
+  bottom: 5%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  top: 5%;
+  right: 6%;
+  color: rgb(255, 255, 255);
+}
+
+.therometer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  top: 30%;
+  right: 4%;
+  color: rgb(255, 255, 255);
+}
+.eye {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  top: 55%;
+  right: 8%;
+  color: rgb(255, 255, 255);
+}
+
+.arrow-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  color: white;
+  bottom: 5%;
+  right: 8%;
+  color: rgb(255, 255, 255);
+}
+
+/* Media Query for all devices */
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .card {
+    width: 360px;
+  }
+}
+@media (max-width: 575px) {
+  .time {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 879px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}

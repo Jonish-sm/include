@@ -1,0 +1,70 @@
+.footer-wave__svg {
+  /* position: relative; */
+  /* bottom: 0; */
+  height: 630px;
+}
+
+.footer-waveinner__svg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 460px;
+}
+
+.topball {
+  animation: ball 1.5s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 0.2s;
+  cursor: pointer;
+}
+
+.wave {
+  animation: wave 10s linear;
+  animation-iteration-count: infinite;
+}
+
+.gooeff {
+  filter: url(#goo);
+}
+
+#wave2 {
+  animation-duration: 10s;
+  animation-direction: reverse;
+  opacity: 0.6;
+  fill: #54b7e3;
+}
+
+#wave3 {
+  animation-duration: 10s;
+  opacity: 0.3;
+  fill: #68c2ea;
+}
+
+#wave0 {
+  animation-duration: 8s;
+  opacity: 0.3;
+  fill: #72cef0;
+}
+
+#wave4 {
+  animation-duration: 10s;
+  opacity: 0.6;
+  fill: #4e9dd6;
+}
+
+#wave5 {
+  animation-duration: 12s;
+  opacity: 0.6;
+  fill: #bcf5ff;
+}
+
+@keyframes wave {
+  from {
+    -webkit-transform: translateX(-100%);
+  }
+  to {
+    left: 50px;
+  }
+}
+

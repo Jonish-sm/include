@@ -1,0 +1,52 @@
+.main_bg {
+  background-image: url(../../assets/footer/mainBg.webp);
+  background-size: cover;
+ 
+}
+.category {
+  width: 83%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.category::-webkit-scrollbar {
+  width: 0;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.left-nav button {
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 1px solid #007aff;
+  color: #007aff;
+  font-weight: 550;
+  background-color: white;
+}
+.left-nav .active-btn {
+  background-color: #007aff;
+  color: white;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #007aff;
+  font-size: 2rem;
+}
+.right-nav span {
+  color: rgb(61, 59, 59);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .right-nav {
+    display: none;
+  }
+}
