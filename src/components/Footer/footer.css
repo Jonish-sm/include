@@ -298,9 +298,6 @@
   .bottom {
     flex-direction: column;
   }
-  .vl {
-    display: none;
-  }
 
   .footer_bot_middle ul li a {
     font-size: 20px;
@@ -350,10 +347,9 @@
   /* .bottom {
     flex-direction: column;
   } */
-  .vl {
-    display: none;
+  .footer_bot_right .icons {
+    margin: 0 5px;
   }
-
   .footer_bot_middle ul li a {
     font-size: 14px;
   }

@@ -44,10 +44,11 @@
 .right-nav {
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  /* gap: 0.5rem; */
   color: #007aff;
   font-size: 2rem;
 }
+
 .right-nav span {
   color: #4b4646;
   font-family: "GilroySemiBold";
