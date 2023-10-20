@@ -21,46 +21,73 @@
   justify-content: center;
   width: 50%;
   flex-direction: column;
-  color: white;
+  color: #ffffff;
   gap: 20px;
-  font-size: 2rem;
   margin-left: 10%;
+}
+.hero_text_container h1 {
+  font-family: "GilroyBold";
+  font-size: 56px;
+}
+.hero_text_container p {
+  font-family: "GilroyMedium";
+  font-size: 18px;
+  line-height: 22.5px;
 }
 .hero_text_container button {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  font-weight: bold;
-  border: 1px solid blue;
+  font-family: "GilroyBold";
+  font-size: 18px;
+  border: 1px solid #007aff;
   color: #007aff;
-  width: 155.45px;
+  width: 145.45px;
   height: 45.74px;
   border-radius: 32.85px;
   transition: 0.3s ease-in;
+  margin-top: 15px;
 }
 .hero_text_container button:hover {
   background-color: #007aff;
   color: white;
 }
+.play {
+  width: 5.5%;
+  position: absolute;
+  left: 46%;
+}
+.play img {
+  width: 100%;
+}
 
 @media (max-width: 575px) {
   .hero_text_container {
-    font-size: 1rem;
     width: 100%;
+  }
+  .play {
+    display: none;
+  }
+  .hero_text_container h1 {
+    font-size: 30px;
+  }
+  .hero_text_container p {
+    font-size: 10px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 879px) {
+  .play {
+    display: none;
+  }
   .hero_text_container {
-    font-size: 2rem;
     width: 100%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hero_text_container {
-    font-size: 2rem;
     width: 100%;
   }
 }

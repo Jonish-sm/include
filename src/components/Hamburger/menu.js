@@ -10,7 +10,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import MenuIcon from "@mui/icons-material/Menu";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -75,11 +75,11 @@ export default function TemporaryDrawer() {
   );
 
   return (
-    <div >
+    <div>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>
-            <MenuIcon />
+            <RxHamburgerMenu color="#007AFF" fontSize={24} />
           </Button>
           <Drawer
             anchor={anchor}

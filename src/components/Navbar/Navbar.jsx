@@ -1,9 +1,9 @@
 import "./navbar.css";
-import Logo from "../../assets/logoo-blue.svg";
-import SearchIcon from "@mui/icons-material/Search";
-import LanguageIcon from "@mui/icons-material/Language";
-import PersonIcon from "@mui/icons-material/Person";
-import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import Logo from "../../assets/logo/logo.svg";
+import { AiOutlineSearch } from "react-icons/ai";
+import { CiGlobe } from "react-icons/ci";
+import PersonIcon from "../../assets/user/users.png";
+import Bll from "../../assets/icons/brll.png";
 import Menu from "../Hamburger/menu";
 const Navbar = () => {
   return (
@@ -14,18 +14,20 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
           <div className="search-icon">
-            <SearchIcon />
+            <AiOutlineSearch className="search_i" />
           </div>
           <div className="languages">
-            <LanguageIcon />
-            <h4>LANG</h4>
+            <CiGlobe className="earth" />
+            <h4>عربي</h4>
           </div>
           <div className="notification">
-            <NotificationsNoneIcon />
+            <img className="noti" src={Bll} alt="notification" />
           </div>
           <div className="hamburger-menu">
-            <Menu />
-            <PersonIcon />
+            <div className="menu_icon">
+              <Menu />
+            </div>
+            <img src={PersonIcon} alt="user" />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Card from "../../components/Card/Card";
 import React from "react";
-import filter from "../../assets/filter-new.svg";
+import filter from "../../assets/icons/filter-new.svg";
 import { BsArrowRightCircle } from "react-icons/bs";
 import "./category.css";
 
@@ -25,7 +25,9 @@ const Category = () => {
           <BsArrowRightCircle />
         </div>
       </div>
-      <Card />
+      <div className="carddiv">
+        <Card />
+      </div>
     </div>
   );
 };

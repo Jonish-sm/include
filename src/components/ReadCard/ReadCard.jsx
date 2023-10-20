@@ -1,5 +1,11 @@
 import "./readcard.css";
-import IMG from "../../assets/img/16903803783702.jpg";
+import one from "../../assets/img/rectangle-112@2x.png";
+import two from "../../assets/img/rectangle-1125@2x.png";
+import three from "../../assets/img/rectangle-1124@2x.png";
+import four from "../../assets/img/rectangle-1123@2x.png";
+import five from "../../assets/img/rectangle-1121@2x.png";
+import six from "../../assets/img/rectangle-1122@2x.png";
+
 import { BsArrowRightCircle } from "react-icons/bs";
 
 function ReadCard() {
@@ -10,51 +16,46 @@ function ReadCard() {
           <h2>Reads</h2>
         </div>
         <div className="right">
-          <span>See all</span>
+          <span>View all</span>
           <BsArrowRightCircle />
         </div>
       </div>
       <div className="readcard">
         <div className="grid1">
-          <img src={IMG} alt="" />
+          <img src={one} alt="" />
           <h3 className="hu3">
             The Fight <br />
             Against Plastic
           </h3>
         </div>
         <div className="grid2">
-          <img src={IMG} alt="" />
+          <img src={two} alt="" />
           <h3 className="hu3">
-            The Fight <br />
-            Against Plastic
+            SCUBA Diving…my <br /> rebirth!
           </h3>
         </div>
         <div className="grid3">
-          <img src={IMG} alt="" />
+          <img src={five} alt="" />
           <h3 className="hu3">
-            The Fight <br />
-            Against Plastic
+            Free Diving. Did you <br /> know that…
           </h3>
         </div>
         <div className="grid4">
-          <img src={IMG} alt="" />
+          <img src={three} alt="" />
           <h3 className="hu3">
-            The Fight <br />
-            Against Plastic
+            My own…Deep <br /> Blue Sea
           </h3>
         </div>
         <div className="grid5">
-          <img src={IMG} alt="" />
+          <img src={four} alt="" />
           <h3 className="hu3">
-            The Fight <br />
-            Against Plastic
+            Divemaster <br /> Rocks
           </h3>
         </div>
         <div className="grid6">
-          <img src={IMG} alt="" />
+          <img src={six} alt="" />
           <h3 className="hu3">
-            The Fight <br />
-            Against Plastic
+            Find the <br /> courage!
           </h3>
         </div>
       </div>

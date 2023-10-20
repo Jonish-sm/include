@@ -1,20 +1,20 @@
 {
-  "short_name": "Blue Kingdom",
+  "short_name": "#Include",
   "name": "The ultimate diving guide to the northern red sea",
   "content":"booking, holital destination, affodiable holiday package" ,
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logoo-blue.svg",
+      "src": "logo.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logoo-blue.svg",
+      "src": "logo.svg",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -1,42 +1,43 @@
 .card {
   position: relative;
-  width: 410px;
+  width: 382px;
   height: 260px;
   overflow: hidden;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem;
-  gap: 1rem;
+  /* margin: 1rem; */
+  gap: 2rem;
 }
-.card img {
+.cardImg {
   width: 100%;
-  filter: brightness(50%);
+  filter: brightness(90%);
   transition: transform 0.5s;
   /* border-radius: 1rem; */
 }
-.card img:hover {
+.cardImg:hover {
   transform: scale(1.1);
-  filter: brightness(30%);
+  filter: brightness(60%);
 }
 
 .card h3 {
   position: absolute;
   top: 10%;
   left: 5%;
-  font-weight: bold;
   color: white;
-  font-size: 1.7rem;
+  font-family: "GilroyBold";
+  font-size: 22px;
 }
 .card p {
   position: absolute;
   color: white;
-  font-size: 1rem;
-  font-weight: bold;
+  font-family: "GilroyMedium";
+  font-size: 12px;
   top: 25%;
   left: 5%;
 }
@@ -50,14 +51,14 @@
   border-radius: 2rem;
   background: rgba(212, 208, 208, 0.326);
   top: 9%;
-  right: 35%;
+  right: 30%;
   color: white;
 }
 
 .vertical-line {
   position: absolute;
   width: 1px;
-  height: 200px;
+  height: 210px;
   background-color: rgba(255, 255, 255, 0.783);
   top: 10%;
   right: 25%;
@@ -67,15 +68,20 @@
   align-items: center;
   position: absolute;
   color: white;
-  bottom: 15%;
+  bottom: 20%;
   left: 5%;
+  gap: 10px;
+}
+.distance span {
+  font-family: "GilroyMedium";
+  font-size: 12px;
 }
 .vertical-line1 {
   position: absolute;
   width: 0.5px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.783);
-  bottom: 5%;
+  bottom: 10%;
   right: 45%;
 }
 .star {
@@ -83,19 +89,24 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  bottom: 5%;
-  right: 30%;
-  color: rgb(255, 255, 255);
+  bottom: 16%;
+  right: 41%;
 }
-.star .allstart {
-  color: yellow;
+.star p {
+  font-family: "GilroyMedium";
+  font-size: 12px;
 }
-.star .allstart span {
-  color: rgb(255, 255, 255);
-  font-weight: bolder;
+.allstart {
+  display: flex;
   position: absolute;
-  bottom: 53%;
-  margin-left: 5px;
+  bottom: 60%;
+  font-size: 25px;
+}
+
+.allstart span {
+  color: rgb(255, 255, 255);
+  font-family: "GilroyMedium";
+  font-size: 24px;
 }
 
 .time {
@@ -103,9 +114,13 @@
   align-items: center;
   position: absolute;
   color: white;
-  bottom: 5%;
+  bottom: 10%;
   left: 5%;
-  color: rgb(255, 255, 255);
+  gap: 10px;
+}
+.time span {
+  font-family: "GilroyMedium";
+  font-size: 12px;
 }
 .arrow {
   display: flex;
@@ -113,9 +128,8 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  top: 5%;
+  top: 10%;
   right: 6%;
-  color: rgb(255, 255, 255);
 }
 
 .therometer {
@@ -126,7 +140,6 @@
   color: white;
   top: 30%;
   right: 4%;
-  color: rgb(255, 255, 255);
 }
 .eye {
   display: flex;
@@ -136,7 +149,6 @@
   color: white;
   top: 55%;
   right: 8%;
-  color: rgb(255, 255, 255);
 }
 
 .arrow-right {
@@ -145,27 +157,27 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  bottom: 5%;
+  bottom: 10%;
   right: 8%;
   color: rgb(255, 255, 255);
 }
 
 /* Media Query for all devices */
 
-@media (min-width: 100px) and (max-width: 575px) {
+@media (max-width: 380px) {
   .card {
     width: 360px;
   }
 }
-@media (max-width: 575px) {
-  .time {
-    font-size: 14px;
-  }
+@media (max-width: 380px) and (max-width: 575px) {
 }
 
 @media (min-width: 576px) and (max-width: 879px) {
   .card {
-    width: 500px;
+    width: 550px;
+  }
+  .love-icon {
+    right: 32%;
   }
 }
 

@@ -1,6 +1,6 @@
 .footer-wave__svg {
-  /* position: relative; */
-  /* bottom: 0; */
+  width: 100%;
+  bottom: 0;
   height: 630px;
 }
 
@@ -68,3 +68,9 @@
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .footer-wave__svg {
+    width: unset;
+    height: 420px;
+  }
+}
