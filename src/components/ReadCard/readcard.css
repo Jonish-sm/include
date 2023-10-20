@@ -13,7 +13,9 @@
   margin-top: 4.3rem;
   margin-bottom: 0.7rem;
 }
-
+.left hr {
+  display: none;
+}
 .left h2 {
   font-family: "GilroyBold";
   font-size: 28px;
@@ -94,6 +96,12 @@
   .readcard {
     width: 100%;
   }
+  .right {
+    display: none;
+  }
+  .left hr {
+    display: flex;
+  }
   .readcard {
     grid-template-areas:
       "A A A A"
@@ -117,8 +125,5 @@
   .readcard {
     width: 90%;
     height: 50vh;
-  }
-  .right {
-    display: none;
   }
 }

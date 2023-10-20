@@ -127,17 +127,7 @@
     display: flex;
     margin-top: 400px;
   }
-  .footer_right {
-    /* position: unset; */
-    /* position: absolute; */
-    /* bottom: 40%;
-    left: 10%; */
-  }
-  .footer_left {
-    /* position: unset; */
-    /* position: absolute;
-    gap: 10px; */
-  }
+
   .mobiimg {
     width: 110%;
   }

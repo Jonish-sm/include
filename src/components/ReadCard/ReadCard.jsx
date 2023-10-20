@@ -14,6 +14,7 @@ function ReadCard() {
       <div className="readsee">
         <div className="left">
           <h2>Reads</h2>
+          <  hr />
         </div>
         <div className="right">
           <span>View all</span>
