@@ -17,13 +17,13 @@
 }
 .cardImg {
   width: 100%;
-  filter: brightness(90%);
+  filter: brightness(100%);
   transition: transform 0.5s;
   /* border-radius: 1rem; */
 }
 .cardImg:hover {
   transform: scale(1.1);
-  filter: brightness(60%);
+  filter: brightness(70%);
 }
 
 .card h3 {

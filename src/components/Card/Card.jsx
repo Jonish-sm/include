@@ -24,11 +24,11 @@ const Card = () => {
             <div className="vertical-line"></div>
             <div className="distance">
               <img src={LocationOnOutlinedIcon} alt="location" />
-              <span>Distance 15 Km</span>
+              <span>Distance &nbsp; 15 Km</span>
             </div>
             <div className="time">
               <img src={TimerOutlinedIcon} alt="watch" />
-              <span>Top Dive Time 45-60 Mn</span>
+              <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
             </div>
             <div className="vertical-line1"></div>
             <div className="star">
