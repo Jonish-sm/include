@@ -3,7 +3,7 @@
   width: 382px;
   height: 260px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -27,8 +27,8 @@
 
 .card h3 {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 7%;
+  left: 7%;
   color: white;
   font-family: "GilroyBold";
   font-size: 22px;
@@ -38,29 +38,34 @@
   color: white;
   font-family: "GilroyMedium";
   font-size: 12px;
-  top: 25%;
-  left: 5%;
+  top: 20%;
+  left: 7%;
 }
 .love-icon {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 2rem;
-  background: rgba(212, 208, 208, 0.326);
-  top: 9%;
+  color: #f2f2f2;
+  border-radius: 50%;
+  background: linear-gradient(
+    108.46deg,
+    rgba(255, 255, 255, 0.132),
+    rgba(255, 255, 255, 0.007)
+  );
+  backdrop-filter: blur(10px);
+  width: 45.37px;
+  height: 45.37px;
+  top: 7%;
   right: 30%;
-  color: white;
 }
 
 .vertical-line {
   position: absolute;
   width: 1px;
-  height: 210px;
-  background-color: rgba(255, 255, 255, 0.783);
-  top: 10%;
+  height: 222px;
+  background-color: rgba(255, 255, 255, 0.447);
+  top: 9%;
   right: 25%;
 }
 .distance {
@@ -68,8 +73,8 @@
   align-items: center;
   position: absolute;
   color: white;
-  bottom: 20%;
-  left: 5%;
+  bottom: 18%;
+  left: 7%;
   gap: 10px;
 }
 .distance span {
@@ -79,9 +84,9 @@
 .vertical-line1 {
   position: absolute;
   width: 0.5px;
-  height: 50px;
-  background-color: rgba(255, 255, 255, 0.783);
-  bottom: 10%;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.509);
+  bottom: 6%;
   right: 45%;
 }
 .star {
@@ -89,7 +94,7 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  bottom: 16%;
+  bottom: 14%;
   right: 41%;
 }
 .star p {
@@ -100,7 +105,9 @@
   display: flex;
   position: absolute;
   bottom: 60%;
-  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .allstart span {
@@ -108,14 +115,19 @@
   font-family: "GilroyMedium";
   font-size: 24px;
 }
+.yellow {
+  width: 20.4px;
+  height: 20.44px;
+  color: #f2d422;
+}
 
 .time {
   display: flex;
   align-items: center;
   position: absolute;
   color: white;
-  bottom: 10%;
-  left: 5%;
+  bottom: 7%;
+  left: 7%;
   gap: 10px;
 }
 .time span {
@@ -131,6 +143,14 @@
   top: 10%;
   right: 6%;
 }
+.arrow span {
+  font-family: "GilroySemiBold";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
+}
 
 .therometer {
   display: flex;
@@ -138,8 +158,16 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  top: 30%;
-  right: 4%;
+  top: 33%;
+  right: 6%;
+}
+.therometer span {
+  font-family: "GilroySemiBold";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
 }
 .eye {
   display: flex;
@@ -147,8 +175,16 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  top: 55%;
-  right: 8%;
+  top: 57%;
+  right: 6%;
+}
+.eye span {
+  font-family: "GilroySemiBold";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .arrow-right {
@@ -157,16 +193,23 @@
   flex-direction: column;
   position: absolute;
   color: white;
-  bottom: 10%;
-  right: 8%;
+  bottom: 7%;
+  right: 10%;
   color: rgb(255, 255, 255);
 }
-
+.arrow-right span {
+  font-family: "GilroySemiBold";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 5px;
+}
 /* Media Query for all devices */
 
 @media (max-width: 380px) {
   .card {
-    width: 360px;
+    width: 370px;
   }
 }
 @media (max-width: 380px) and (max-width: 575px) {

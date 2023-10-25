@@ -1,7 +1,7 @@
 import Card from "../../components/Card/Card";
 import React from "react";
 import filter from "../../assets/icons/filter-new.svg";
-import BsArrowRightCircle from "../../assets/icons/catarrow.png";
+import { BsArrowRight } from "react-icons/bs";
 import "./category.css";
 
 const Category = () => {
@@ -22,7 +22,9 @@ const Category = () => {
         </div>
         <div className="right-nav">
           <span>View all</span>
-          <img src={BsArrowRightCircle} alt="arrow" />
+          <div className="roundIcons">
+            <BsArrowRight />
+          </div>
         </div>
       </div>
       <div className="carddiv">

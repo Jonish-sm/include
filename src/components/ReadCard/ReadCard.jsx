@@ -5,8 +5,7 @@ import three from "../../assets/img/rectangle-1124@2x.png";
 import four from "../../assets/img/rectangle-1123@2x.png";
 import five from "../../assets/img/rectangle-1121@2x.png";
 import six from "../../assets/img/rectangle-1122@2x.png";
-
-import BsArrowRightCircle from "../../assets/icons/catarrow.png";
+import { BsArrowRight } from "react-icons/bs";
 
 function ReadCard() {
   return (
@@ -14,11 +13,13 @@ function ReadCard() {
       <div className="readsee">
         <div className="left">
           <h2>Reads</h2>
-          <  hr />
+          <hr />
         </div>
         <div className="right">
           <span>View all</span>
-          <img src={BsArrowRightCircle} alt="arrow" />
+          <div className="roundIcons">
+            <BsArrowRight />
+          </div>
         </div>
       </div>
       <div className="readcard">

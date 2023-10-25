@@ -1,7 +1,7 @@
 .read_main {
   background-image: url(../../assets/footer/zone-bg.webp);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
   background-repeat: no-repeat;
 }
 .readsee {
@@ -20,6 +20,17 @@
   font-family: "GilroyBold";
   font-size: 28px;
   color: #3e3939;
+}
+.roundIcons {
+  width: 35.51px;
+  height: 35.51px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #007aff;
+  font-size: 20px;
+  background-color: white;
 }
 .right {
   display: flex;
@@ -83,8 +94,8 @@
 }
 .hu3 {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
+  bottom: 6%;
+  left: 6%;
   color: white;
   font-family: "GilroyBold";
   font-size: 23px;

@@ -28,11 +28,14 @@
 .hero_text_container h1 {
   font-family: "GilroyBold";
   font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.2px;
 }
 .hero_text_container p {
   font-family: "GilroyMedium";
   font-size: 18px;
   line-height: 22.5px;
+  letter-spacing: 0.2px;
 }
 .hero_text_container button {
   display: flex;
@@ -54,9 +57,10 @@
   color: white;
 }
 .play {
-  width: 5.5%;
   position: absolute;
   left: 46%;
+  width: 97px;
+  height: 97px;
 }
 .play img {
   width: 100%;
@@ -71,9 +75,11 @@
   }
   .hero_text_container h1 {
     font-size: 30px;
+    line-height: normal;
   }
   .hero_text_container p {
     font-size: 10px;
+    line-height: normal;
   }
 }
 
@@ -85,10 +91,12 @@
     width: 100%;
   }
   .hero_text_container h1 {
-    font-size: 30px;
+    font-size: 40px;
+    line-height: normal;
   }
   .hero_text_container p {
-    font-size: 15px;
+    font-size: 20px;
+    line-height: normal;
   }
 }
 
@@ -100,7 +108,7 @@
 
 @media (min-width: 991px) and (max-width: 1200px) {
   .hero_text_container {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     width: 100%;
   }
 }
