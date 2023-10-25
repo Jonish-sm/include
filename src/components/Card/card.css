@@ -5,6 +5,7 @@
   overflow: hidden;
   border-radius: 5px;
   cursor: pointer;
+  /* margin: 1rem; */
 }
 
 .main {
@@ -222,4 +223,10 @@
   .love-icon {
     right: 32%;
   }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  /* .card {
+    width: 300px;
+  } */
 }

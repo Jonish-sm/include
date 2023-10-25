@@ -1,10 +1,13 @@
+import { useEffect, useState } from "react";
 import Video from "../../assets/video/Underwater.mp4";
 import "./videoplayer.css";
 function VideoPlayer() {
+  const [control, setControl] = useState();
+  useEffect(() => setControl(false), []);
   return (
     <div className="video-container">
       <video
-        no-controls
+        controls={control}
         autoPlay
         loop
         muted
